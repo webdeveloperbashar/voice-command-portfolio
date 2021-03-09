@@ -3,27 +3,23 @@ import { useSpeechSynthesis } from "react-speech-kit";
 import "bootstrap/dist/css/bootstrap.min.css";
 import start from "./start.gif";
 import "./Speech.css";
+import {About, Skill, Contact, CommandStr} from './Text'
 
 const Home = () => {
-  const { speak, voice } = useSpeechSynthesis();
-  let about = "I am Abul Bashar and front-end-developer";
-  let skill = 'my skills, html5, css3, bootstrap5, wordpress, javascript, reactjs, jquery, php, typescript';
-  let contact = 'address, gurudaspur natore, email, webdeveloperbashar@gmail.com, phone, 01700000000'
-  let commandStr = 'please type a valid command. for example, about, skill, contact';
-  console.log(useSpeechSynthesis());
+  const { speak } = useSpeechSynthesis();
   const handlePress = (e) => {
     let value = e.target.value;
     const str = value.toLowerCase();
     if (e.key === "Enter") {
-      if (str == "about") {
-        speak({ text: about });
-      } else if (str == "skill") {
-        speak({ text: skill });
-      }else if(str == 'contact'){
-        speak({text: contact})
+      if (str === "about") {
+        speak({ text: About });
+      } else if (str === "skill") {
+        speak({ text: Skill });
+      }else if(str === 'contact'){
+        speak({text: Contact})
       }
        else {
-        speak({ text: commandStr });
+        speak({ text: CommandStr });
       }
       e.target.value = ''
     }
