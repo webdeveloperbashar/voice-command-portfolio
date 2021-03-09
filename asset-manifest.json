@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/voice-command-portfolio/static/css/main.dc423d17.chunk.css",
+    "main.js": "/voice-command-portfolio/static/js/main.1062c743.chunk.js",
+    "main.js.map": "/voice-command-portfolio/static/js/main.1062c743.chunk.js.map",
+    "runtime-main.js": "/voice-command-portfolio/static/js/runtime-main.c17e824e.js",
+    "runtime-main.js.map": "/voice-command-portfolio/static/js/runtime-main.c17e824e.js.map",
+    "static/css/2.fabbef47.chunk.css": "/voice-command-portfolio/static/css/2.fabbef47.chunk.css",
+    "static/js/2.b8d71f25.chunk.js": "/voice-command-portfolio/static/js/2.b8d71f25.chunk.js",
+    "static/js/2.b8d71f25.chunk.js.map": "/voice-command-portfolio/static/js/2.b8d71f25.chunk.js.map",
+    "static/js/3.52ab44f0.chunk.js": "/voice-command-portfolio/static/js/3.52ab44f0.chunk.js",
+    "static/js/3.52ab44f0.chunk.js.map": "/voice-command-portfolio/static/js/3.52ab44f0.chunk.js.map",
+    "index.html": "/voice-command-portfolio/index.html",
+    "static/css/2.fabbef47.chunk.css.map": "/voice-command-portfolio/static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.dc423d17.chunk.css.map": "/voice-command-portfolio/static/css/main.dc423d17.chunk.css.map",
+    "static/js/2.b8d71f25.chunk.js.LICENSE.txt": "/voice-command-portfolio/static/js/2.b8d71f25.chunk.js.LICENSE.txt",
+    "static/media/start.5e1b94ca.gif": "/voice-command-portfolio/static/media/start.5e1b94ca.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17e824e.js",
+    "static/css/2.fabbef47.chunk.css",
+    "static/js/2.b8d71f25.chunk.js",
+    "static/css/main.dc423d17.chunk.css",
+    "static/js/main.1062c743.chunk.js"
+  ]
+}
